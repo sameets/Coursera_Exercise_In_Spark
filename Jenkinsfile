@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Test") {
             steps {
-                echo 'Testing the applications.... '
+                echo 'Testing the applications...... '
             }
         }
          stage("Deploy") {
@@ -18,3 +18,4 @@ pipeline {
             }
         }
     }
+}
